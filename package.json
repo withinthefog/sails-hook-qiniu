@@ -1,0 +1,21 @@
+{
+  "name": "sails-hook-qiniu",
+  "version": "0.0.1",
+  "description": "七牛服务端api的sails hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "author": "withinthefog@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "qiniu": "^6.1.11"
+  },
+  "devDependencies": {
+    "sails": "^0.12.4"
+  }
+}
