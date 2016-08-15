@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "sails": "^0.12.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withinthefog/sails-hook-qiniu.git"
+  },
+  "keywords": [
+    "sailsjs",
+    "qiniu"
+  ]
 }

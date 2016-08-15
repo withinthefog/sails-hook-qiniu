@@ -10,18 +10,15 @@ module.export = {
     AK: '',  // 七牛access key
     SK: '',  // 七牛secret key
     UP_TOKEN_EXPIRE: 3600000,  // 上传token过期时间, 默认10分钟
-    CALLBACK_URL: '',  // 七牛上传事件推送的url地址
-    CALLBACK_BODY: ''  // 七牛上传事件推送的body
 }
 ```
 
 ## hooks方法
 
-### getUpToken(bucket)
+### getUpToken(options)
 
 生成上传token
 
-
-### verifySignature(url, body, httpAuthorization)
+### verifySignature(req)
 
 检查七牛服务器回调签名.
